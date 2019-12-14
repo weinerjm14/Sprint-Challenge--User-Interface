@@ -263,8 +263,12 @@ footer nav a {
 h1, h3{
     font-size: 1.5em;
 }
+.about-page{
+    width: 100%;
+    margin: 0 auto;
+}
 .top-about-text{
-        padding-bottom: 3%;
+     padding-bottom: 3%;
     width: 100%;
     border-bottom: dotted;
 }
