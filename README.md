@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is HTML written to make reading code easier by providing context to tags. For example, a nav tag will contain navigation elements and a section tag is used to create sections within the HTML to make reading it and styling it easier.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block includes height and width and breaks to the next line where display inline does neither
 
 3. What are the 4 areas of the box model?
 
+Margin
+Border
+Padding
+Content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows for versioning, remote collaboration, and rolling back of code. It allows a team to work together without over-writing each other's code using branching or cloning (or both). It is better than email back and forth since it is not reliant on someone looking at who is working on what to begin to make their own changes. It also allows for sharing public projects for community collaboration using tools like gitHub or BitBucket, which is especially important for open-source projects.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,7 +63,7 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ x] Add your project manager as collaborator on Github.
 - [ x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
@@ -89,9 +102,9 @@ You will also notice there are 10 boxes on the home page that need background co
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
+* [x ] Copy and paste your home page navigation and header into the about page
+* [ x] Update the header image with the about page image
+* [ x] Link the `Home` navigation item back to the `index.html` page.
 * [ ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
