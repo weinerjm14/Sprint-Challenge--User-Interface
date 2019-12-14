@@ -93,6 +93,9 @@ nav {
     text-decoration: none;
     color: black;
 }
+header img{
+    width: 100%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -255,4 +258,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* about.html specfic */
+h1, h3{
+    font-size: 1.5em;
+}
+.top-about-text{
+        padding-bottom: 3%;
+    width: 100%;
+    border-bottom: dotted;
+}
+.about-mid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.about-boxes{
+    width: 47%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    padding-top: 5%;
+    border-bottom: dotted;
+}
+h3{
+    padding: 3% 0 1% 0;
+}
+.about-boxes p{
+    padding-bottom: 8%;
+}
+.about-boxes img {
+    width: 100%;
+}
+.about-boxes a{
+    text-decoration: none;
+    color: black;
+    border: solid;
+    padding: 3% 6%;
+    border-radius: 17px;
+}
+.about-bottom{
+    padding: 5% 0;
 }
