@@ -1,0 +1,23 @@
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML is HTML written to make reading code easier by providing context to tags. For example, a nav tag will contain navigation elements and a section tag is used to create sections within the HTML to make reading it and styling it easier.
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block includes height and width and breaks to the next line where display inline does neither
+
+3. What are the 4 areas of the box model?
+
+Margin
+Border
+Padding
+Content
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+cross-axis
+
+5. Explain why git is valuable to a team of developers.
+
+Git allows for versioning, remote collaboration, and rolling back of code. It allows a team to work together without over-writing each other's code using branching or cloning (or both). It is better than email back and forth since it is not reliant on someone looking at who is working on what to begin to make their own changes. It also allows for sharing public projects for community collaboration using tools like gitHub or BitBucket, which is especially important for open-source projects.
